@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1E9EC726A2DE0C005C0940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9EC626A2DE0C005C0940 /* AppDelegate.swift */; };
+		1B1E9EC926A2DE0C005C0940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9EC826A2DE0C005C0940 /* SceneDelegate.swift */; };
+		1B1E9ECB26A2DE0C005C0940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9ECA26A2DE0C005C0940 /* ViewController.swift */; };
+		1B1E9ECE26A2DE0C005C0940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E9ECC26A2DE0C005C0940 /* Main.storyboard */; };
+		1B1E9ED126A2DE0C005C0940 /* Audify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9ECF26A2DE0C005C0940 /* Audify.xcdatamodeld */; };
+		1B1E9ED326A2DE0D005C0940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E9ED226A2DE0D005C0940 /* Assets.xcassets */; };
+		1B1E9ED626A2DE0D005C0940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E9ED426A2DE0D005C0940 /* LaunchScreen.storyboard */; };
+		1B1E9EE126A2DE0E005C0940 /* AudifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9EE026A2DE0E005C0940 /* AudifyTests.swift */; };
+		1B1E9EEB26A2DE0E005C0940 /* AudifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9EEA26A2DE0E005C0940 /* AudifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B1E9EDD26A2DE0E005C0940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1E9EBB26A2DE0C005C0940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1E9EC226A2DE0C005C0940;
+			remoteInfo = Audify;
+		};
+		1B1E9EE726A2DE0E005C0940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1E9EBB26A2DE0C005C0940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1E9EC226A2DE0C005C0940;
+			remoteInfo = Audify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1E9EC326A2DE0C005C0940 /* Audify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1E9EC626A2DE0C005C0940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B1E9EC826A2DE0C005C0940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B1E9ECA26A2DE0C005C0940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B1E9ECD26A2DE0C005C0940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B1E9ED026A2DE0C005C0940 /* Audify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Audify.xcdatamodel; sourceTree = "<group>"; };
+		1B1E9ED226A2DE0D005C0940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B1E9ED526A2DE0D005C0940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B1E9ED726A2DE0D005C0940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1E9EDC26A2DE0E005C0940 /* AudifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1E9EE026A2DE0E005C0940 /* AudifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudifyTests.swift; sourceTree = "<group>"; };
+		1B1E9EE626A2DE0E005C0940 /* AudifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1E9EEA26A2DE0E005C0940 /* AudifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudifyUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B1E9EC026A2DE0C005C0940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1E9ED926A2DE0E005C0940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1E9EE326A2DE0E005C0940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B1E9EBA26A2DE0C005C0940 = {
+			isa = PBXGroup;
+			children = (
+				1B1E9EC526A2DE0C005C0940 /* Audify */,
+				1B1E9EDF26A2DE0E005C0940 /* AudifyTests */,
+				1B1E9EE926A2DE0E005C0940 /* AudifyUITests */,
+				1B1E9EC426A2DE0C005C0940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B1E9EC426A2DE0C005C0940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E9EC326A2DE0C005C0940 /* Audify.app */,
+				1B1E9EDC26A2DE0E005C0940 /* AudifyTests.xctest */,
+				1B1E9EE626A2DE0E005C0940 /* AudifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B1E9EC526A2DE0C005C0940 /* Audify */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E9EC626A2DE0C005C0940 /* AppDelegate.swift */,
+				1B1E9EC826A2DE0C005C0940 /* SceneDelegate.swift */,
+				1B1E9ECA26A2DE0C005C0940 /* ViewController.swift */,
+				1B1E9ECC26A2DE0C005C0940 /* Main.storyboard */,
+				1B1E9ED226A2DE0D005C0940 /* Assets.xcassets */,
+				1B1E9ED426A2DE0D005C0940 /* LaunchScreen.storyboard */,
+				1B1E9ED726A2DE0D005C0940 /* Info.plist */,
+				1B1E9ECF26A2DE0C005C0940 /* Audify.xcdatamodeld */,
+			);
+			path = Audify;
+			sourceTree = "<group>";
+		};
+		1B1E9EDF26A2DE0E005C0940 /* AudifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E9EE026A2DE0E005C0940 /* AudifyTests.swift */,
+			);
+			path = AudifyTests;
+			sourceTree = "<group>";
+		};
+		1B1E9EE926A2DE0E005C0940 /* AudifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E9EEA26A2DE0E005C0940 /* AudifyUITests.swift */,
+			);
+			path = AudifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B1E9EC226A2DE0C005C0940 /* Audify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1E9EEE26A2DE0E005C0940 /* Build configuration list for PBXNativeTarget "Audify" */;
+			buildPhases = (
+				1B1E9EBF26A2DE0C005C0940 /* Sources */,
+				1B1E9EC026A2DE0C005C0940 /* Frameworks */,
+				1B1E9EC126A2DE0C005C0940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Audify;
+			productName = Audify;
+			productReference = 1B1E9EC326A2DE0C005C0940 /* Audify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B1E9EDB26A2DE0E005C0940 /* AudifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1E9EF126A2DE0E005C0940 /* Build configuration list for PBXNativeTarget "AudifyTests" */;
+			buildPhases = (
+				1B1E9ED826A2DE0E005C0940 /* Sources */,
+				1B1E9ED926A2DE0E005C0940 /* Frameworks */,
+				1B1E9EDA26A2DE0E005C0940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1E9EDE26A2DE0E005C0940 /* PBXTargetDependency */,
+			);
+			name = AudifyTests;
+			productName = AudifyTests;
+			productReference = 1B1E9EDC26A2DE0E005C0940 /* AudifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B1E9EE526A2DE0E005C0940 /* AudifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1E9EF426A2DE0E005C0940 /* Build configuration list for PBXNativeTarget "AudifyUITests" */;
+			buildPhases = (
+				1B1E9EE226A2DE0E005C0940 /* Sources */,
+				1B1E9EE326A2DE0E005C0940 /* Frameworks */,
+				1B1E9EE426A2DE0E005C0940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1E9EE826A2DE0E005C0940 /* PBXTargetDependency */,
+			);
+			name = AudifyUITests;
+			productName = AudifyUITests;
+			productReference = 1B1E9EE626A2DE0E005C0940 /* AudifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B1E9EBB26A2DE0C005C0940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1B1E9EC226A2DE0C005C0940 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1B1E9EDB26A2DE0E005C0940 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1B1E9EC226A2DE0C005C0940;
+					};
+					1B1E9EE526A2DE0E005C0940 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1B1E9EC226A2DE0C005C0940;
+					};
+				};
+			};
+			buildConfigurationList = 1B1E9EBE26A2DE0C005C0940 /* Build configuration list for PBXProject "Audify" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B1E9EBA26A2DE0C005C0940;
+			productRefGroup = 1B1E9EC426A2DE0C005C0940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B1E9EC226A2DE0C005C0940 /* Audify */,
+				1B1E9EDB26A2DE0E005C0940 /* AudifyTests */,
+				1B1E9EE526A2DE0E005C0940 /* AudifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B1E9EC126A2DE0C005C0940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1E9ED626A2DE0D005C0940 /* LaunchScreen.storyboard in Resources */,
+				1B1E9ED326A2DE0D005C0940 /* Assets.xcassets in Resources */,
+				1B1E9ECE26A2DE0C005C0940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1E9EDA26A2DE0E005C0940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1E9EE426A2DE0E005C0940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B1E9EBF26A2DE0C005C0940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1E9ECB26A2DE0C005C0940 /* ViewController.swift in Sources */,
+				1B1E9ED126A2DE0C005C0940 /* Audify.xcdatamodeld in Sources */,
+				1B1E9EC726A2DE0C005C0940 /* AppDelegate.swift in Sources */,
+				1B1E9EC926A2DE0C005C0940 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1E9ED826A2DE0E005C0940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1E9EE126A2DE0E005C0940 /* AudifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1E9EE226A2DE0E005C0940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1E9EEB26A2DE0E005C0940 /* AudifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1E9EDE26A2DE0E005C0940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1E9EC226A2DE0C005C0940 /* Audify */;
+			targetProxy = 1B1E9EDD26A2DE0E005C0940 /* PBXContainerItemProxy */;
+		};
+		1B1E9EE826A2DE0E005C0940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1E9EC226A2DE0C005C0940 /* Audify */;
+			targetProxy = 1B1E9EE726A2DE0E005C0940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B1E9ECC26A2DE0C005C0940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1E9ECD26A2DE0C005C0940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B1E9ED426A2DE0D005C0940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1E9ED526A2DE0D005C0940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B1E9EEC26A2DE0E005C0940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B1E9EED26A2DE0E005C0940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B1E9EEF26A2DE0E005C0940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZKGGU8WG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Audify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.audify.app.Audify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B1E9EF026A2DE0E005C0940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZKGGU8WG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Audify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.audify.app.Audify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B1E9EF226A2DE0E005C0940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZKGGU8WG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.audify.app.AudifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audify.app/Audify";
+			};
+			name = Debug;
+		};
+		1B1E9EF326A2DE0E005C0940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZKGGU8WG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.audify.app.AudifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audify.app/Audify";
+			};
+			name = Release;
+		};
+		1B1E9EF526A2DE0E005C0940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZKGGU8WG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.audify.app.AudifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Audify;
+			};
+			name = Debug;
+		};
+		1B1E9EF626A2DE0E005C0940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZKGGU8WG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.audify.app.AudifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Audify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B1E9EBE26A2DE0C005C0940 /* Build configuration list for PBXProject "Audify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1E9EEC26A2DE0E005C0940 /* Debug */,
+				1B1E9EED26A2DE0E005C0940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1E9EEE26A2DE0E005C0940 /* Build configuration list for PBXNativeTarget "Audify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1E9EEF26A2DE0E005C0940 /* Debug */,
+				1B1E9EF026A2DE0E005C0940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1E9EF126A2DE0E005C0940 /* Build configuration list for PBXNativeTarget "AudifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1E9EF226A2DE0E005C0940 /* Debug */,
+				1B1E9EF326A2DE0E005C0940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1E9EF426A2DE0E005C0940 /* Build configuration list for PBXNativeTarget "AudifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1E9EF526A2DE0E005C0940 /* Debug */,
+				1B1E9EF626A2DE0E005C0940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B1E9ECF26A2DE0C005C0940 /* Audify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B1E9ED026A2DE0C005C0940 /* Audify.xcdatamodel */,
+			);
+			currentVersion = 1B1E9ED026A2DE0C005C0940 /* Audify.xcdatamodel */;
+			path = Audify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B1E9EBB26A2DE0C005C0940 /* Project object */;
+}
