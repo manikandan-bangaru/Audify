@@ -16,6 +16,7 @@
 		1B1E9ED626A2DE0D005C0940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E9ED426A2DE0D005C0940 /* LaunchScreen.storyboard */; };
 		1B1E9EE126A2DE0E005C0940 /* AudifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9EE026A2DE0E005C0940 /* AudifyTests.swift */; };
 		1B1E9EEB26A2DE0E005C0940 /* AudifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1E9EEA26A2DE0E005C0940 /* AudifyUITests.swift */; };
+		1B1E9EFA26A2ECD1005C0940 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1E9EF926A2ECD0005C0940 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		1B1E9EE026A2DE0E005C0940 /* AudifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudifyTests.swift; sourceTree = "<group>"; };
 		1B1E9EE626A2DE0E005C0940 /* AudifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1E9EEA26A2DE0E005C0940 /* AudifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudifyUITests.swift; sourceTree = "<group>"; };
+		1B1E9EF726A2EA37005C0940 /* Audify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Audify.entitlements; sourceTree = "<group>"; };
+		1B1E9EF926A2ECD0005C0940 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1E9EFA26A2ECD1005C0940 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 				1B1E9EDF26A2DE0E005C0940 /* AudifyTests */,
 				1B1E9EE926A2DE0E005C0940 /* AudifyUITests */,
 				1B1E9EC426A2DE0C005C0940 /* Products */,
+				1B1E9EF826A2ECD0005C0940 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +104,7 @@
 		1B1E9EC526A2DE0C005C0940 /* Audify */ = {
 			isa = PBXGroup;
 			children = (
+				1B1E9EF726A2EA37005C0940 /* Audify.entitlements */,
 				1B1E9EC626A2DE0C005C0940 /* AppDelegate.swift */,
 				1B1E9EC826A2DE0C005C0940 /* SceneDelegate.swift */,
 				1B1E9ECA26A2DE0C005C0940 /* ViewController.swift */,
@@ -125,6 +131,14 @@
 				1B1E9EEA26A2DE0E005C0940 /* AudifyUITests.swift */,
 			);
 			path = AudifyUITests;
+			sourceTree = "<group>";
+		};
+		1B1E9EF826A2ECD0005C0940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E9EF926A2ECD0005C0940 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Audify/Audify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WZKGGU8WG7;
@@ -465,9 +480,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Audify/Audify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WZKGGU8WG7;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Audify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
